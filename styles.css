@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(182, 208, 255);
+}
+
+header {
+    background: rgb(113, 219, 86);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s; /* Transición para el header */
+}
+
+header:hover {
+    background: rgb(90, 180, 70); /* Cambia el color al pasar el ratón */
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Transición para los enlaces del nav */
+}
+
+nav a:hover {
+    color: rgb(83, 82, 80); /* Cambia el color al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background: rgb(113, 219, 86);
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s; /* Transición para el footer */
+}
+
+footer:hover {
+    background: rgb(90, 180, 70); /* Cambia el color al pasar el ratón */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+tr, td {
+    border: 1px solid rgb(204, 191, 191);
+    padding: 10px;
+    text-align: left;
+    transition: background-color 0.3s; /* Transición para las filas de la tabla */
+}
+
+tr:hover {
+    background-color: #faf1f1; /* Cambia el color al pasar el ratón */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+form input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.styled-table th {
+    background-color: rgb(60, 130, 150);
+    color: white;
+}
+
+/* Estilos básicos para los botones */
+button {
+    background-color: #28a745;
+    color: rgb(106, 191, 206);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    width: auto;
+    margin: 5px;
+    transition: background-color 0.3s; /* Transición para los botones */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Botón de Insertar */
+button[name="insertar"] {
+    background-color: #28a745;
+}
+
+/* Botón de Actualizar */
+button[name="actualizar"] {
+    background-color: #007bff;
+}
+
+/* Botón de Eliminar */
+button[name="eliminar"] {
+    background-color: #dc3545;
+}
+
+/* Efecto al pasar el cursor sobre el botón de Insertar */
+button[name="insertar"]:hover {
+    background-color: #218838;
+}
+
+/* Efecto al pasar el cursor sobre el botón de Actualizar */
+button[name="actualizar"]:hover {
+    background-color: #0056b3;
+}
+
+/* Efecto al pasar el cursor sobre el botón de Eliminar */
+button[name="eliminar"]:hover {
+    background-color: #c82333;
+}
