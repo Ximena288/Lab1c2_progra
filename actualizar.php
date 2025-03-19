@@ -4,7 +4,6 @@ include 'header.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Actualizar producto
-    // ... (tu código de actualización) ...
 } else {
     // Mostrar formulario de edición
     $idproducto = $_GET['idproducto'];
